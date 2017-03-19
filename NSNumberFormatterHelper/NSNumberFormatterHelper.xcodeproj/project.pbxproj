@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3AEBB4E1E7CEAFA00BE6E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEBB4D1E7CEAFA00BE6E30 /* main.m */; };
+		B3AEBB511E7CEAFA00BE6E30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEBB501E7CEAFA00BE6E30 /* AppDelegate.m */; };
+		B3AEBB541E7CEAFA00BE6E30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEBB531E7CEAFA00BE6E30 /* ViewController.m */; };
+		B3AEBB571E7CEAFA00BE6E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AEBB551E7CEAFA00BE6E30 /* Main.storyboard */; };
+		B3AEBB591E7CEAFA00BE6E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AEBB581E7CEAFA00BE6E30 /* Assets.xcassets */; };
+		B3AEBB5C1E7CEAFA00BE6E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AEBB5A1E7CEAFA00BE6E30 /* LaunchScreen.storyboard */; };
+		B3AEBB671E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEBB661E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests.m */; };
+		B3AEBB741E7CEC2A00BE6E30 /* NSNumberFormatterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEBB731E7CEC2A00BE6E30 /* NSNumberFormatterHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3AEBB631E7CEAFB00BE6E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3AEBB411E7CEAFA00BE6E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3AEBB481E7CEAFA00BE6E30;
+			remoteInfo = NSNumberFormatterHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3AEBB491E7CEAFA00BE6E30 /* NSNumberFormatterHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSNumberFormatterHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3AEBB4D1E7CEAFA00BE6E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3AEBB4F1E7CEAFA00BE6E30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3AEBB501E7CEAFA00BE6E30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3AEBB521E7CEAFA00BE6E30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3AEBB531E7CEAFA00BE6E30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3AEBB561E7CEAFA00BE6E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3AEBB581E7CEAFA00BE6E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3AEBB5B1E7CEAFA00BE6E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3AEBB5D1E7CEAFA00BE6E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3AEBB621E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSNumberFormatterHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3AEBB661E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNumberFormatterHelperTests.m; sourceTree = "<group>"; };
+		B3AEBB681E7CEAFB00BE6E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3AEBB721E7CEC2A00BE6E30 /* NSNumberFormatterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberFormatterHelper.h; sourceTree = "<group>"; };
+		B3AEBB731E7CEC2A00BE6E30 /* NSNumberFormatterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberFormatterHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3AEBB461E7CEAFA00BE6E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AEBB5F1E7CEAFB00BE6E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3AEBB401E7CEAFA00BE6E30 = {
+			isa = PBXGroup;
+			children = (
+				B3AEBB4B1E7CEAFA00BE6E30 /* NSNumberFormatterHelper */,
+				B3AEBB651E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests */,
+				B3AEBB4A1E7CEAFA00BE6E30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3AEBB4A1E7CEAFA00BE6E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3AEBB491E7CEAFA00BE6E30 /* NSNumberFormatterHelper.app */,
+				B3AEBB621E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3AEBB4B1E7CEAFA00BE6E30 /* NSNumberFormatterHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B3AEBB4F1E7CEAFA00BE6E30 /* AppDelegate.h */,
+				B3AEBB501E7CEAFA00BE6E30 /* AppDelegate.m */,
+				B3AEBB521E7CEAFA00BE6E30 /* ViewController.h */,
+				B3AEBB531E7CEAFA00BE6E30 /* ViewController.m */,
+				B3AEBB711E7CEBCC00BE6E30 /* NSNumberFormatterHelper */,
+				B3AEBB551E7CEAFA00BE6E30 /* Main.storyboard */,
+				B3AEBB581E7CEAFA00BE6E30 /* Assets.xcassets */,
+				B3AEBB5A1E7CEAFA00BE6E30 /* LaunchScreen.storyboard */,
+				B3AEBB5D1E7CEAFA00BE6E30 /* Info.plist */,
+				B3AEBB4C1E7CEAFA00BE6E30 /* Supporting Files */,
+			);
+			path = NSNumberFormatterHelper;
+			sourceTree = "<group>";
+		};
+		B3AEBB4C1E7CEAFA00BE6E30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3AEBB4D1E7CEAFA00BE6E30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3AEBB651E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3AEBB661E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests.m */,
+				B3AEBB681E7CEAFB00BE6E30 /* Info.plist */,
+			);
+			path = NSNumberFormatterHelperTests;
+			sourceTree = "<group>";
+		};
+		B3AEBB711E7CEBCC00BE6E30 /* NSNumberFormatterHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B3AEBB721E7CEC2A00BE6E30 /* NSNumberFormatterHelper.h */,
+				B3AEBB731E7CEC2A00BE6E30 /* NSNumberFormatterHelper.m */,
+			);
+			path = NSNumberFormatterHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3AEBB481E7CEAFA00BE6E30 /* NSNumberFormatterHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3AEBB6B1E7CEAFB00BE6E30 /* Build configuration list for PBXNativeTarget "NSNumberFormatterHelper" */;
+			buildPhases = (
+				B3AEBB451E7CEAFA00BE6E30 /* Sources */,
+				B3AEBB461E7CEAFA00BE6E30 /* Frameworks */,
+				B3AEBB471E7CEAFA00BE6E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSNumberFormatterHelper;
+			productName = NSNumberFormatterHelper;
+			productReference = B3AEBB491E7CEAFA00BE6E30 /* NSNumberFormatterHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3AEBB611E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3AEBB6E1E7CEAFB00BE6E30 /* Build configuration list for PBXNativeTarget "NSNumberFormatterHelperTests" */;
+			buildPhases = (
+				B3AEBB5E1E7CEAFB00BE6E30 /* Sources */,
+				B3AEBB5F1E7CEAFB00BE6E30 /* Frameworks */,
+				B3AEBB601E7CEAFB00BE6E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3AEBB641E7CEAFB00BE6E30 /* PBXTargetDependency */,
+			);
+			name = NSNumberFormatterHelperTests;
+			productName = NSNumberFormatterHelperTests;
+			productReference = B3AEBB621E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3AEBB411E7CEAFA00BE6E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = leo;
+				TargetAttributes = {
+					B3AEBB481E7CEAFA00BE6E30 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B3AEBB611E7CEAFB00BE6E30 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3AEBB481E7CEAFA00BE6E30;
+					};
+				};
+			};
+			buildConfigurationList = B3AEBB441E7CEAFA00BE6E30 /* Build configuration list for PBXProject "NSNumberFormatterHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3AEBB401E7CEAFA00BE6E30;
+			productRefGroup = B3AEBB4A1E7CEAFA00BE6E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3AEBB481E7CEAFA00BE6E30 /* NSNumberFormatterHelper */,
+				B3AEBB611E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3AEBB471E7CEAFA00BE6E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AEBB5C1E7CEAFA00BE6E30 /* LaunchScreen.storyboard in Resources */,
+				B3AEBB591E7CEAFA00BE6E30 /* Assets.xcassets in Resources */,
+				B3AEBB571E7CEAFA00BE6E30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AEBB601E7CEAFB00BE6E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3AEBB451E7CEAFA00BE6E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AEBB541E7CEAFA00BE6E30 /* ViewController.m in Sources */,
+				B3AEBB511E7CEAFA00BE6E30 /* AppDelegate.m in Sources */,
+				B3AEBB741E7CEC2A00BE6E30 /* NSNumberFormatterHelper.m in Sources */,
+				B3AEBB4E1E7CEAFA00BE6E30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AEBB5E1E7CEAFB00BE6E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AEBB671E7CEAFB00BE6E30 /* NSNumberFormatterHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3AEBB641E7CEAFB00BE6E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3AEBB481E7CEAFA00BE6E30 /* NSNumberFormatterHelper */;
+			targetProxy = B3AEBB631E7CEAFB00BE6E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3AEBB551E7CEAFA00BE6E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3AEBB561E7CEAFA00BE6E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3AEBB5A1E7CEAFA00BE6E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3AEBB5B1E7CEAFA00BE6E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3AEBB691E7CEAFB00BE6E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3AEBB6A1E7CEAFB00BE6E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3AEBB6C1E7CEAFB00BE6E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSNumberFormatterHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leoyang.NSNumberFormatterHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3AEBB6D1E7CEAFB00BE6E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSNumberFormatterHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leoyang.NSNumberFormatterHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3AEBB6F1E7CEAFB00BE6E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NSNumberFormatterHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leoyang.NSNumberFormatterHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSNumberFormatterHelper.app/NSNumberFormatterHelper";
+			};
+			name = Debug;
+		};
+		B3AEBB701E7CEAFB00BE6E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NSNumberFormatterHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leoyang.NSNumberFormatterHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSNumberFormatterHelper.app/NSNumberFormatterHelper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3AEBB441E7CEAFA00BE6E30 /* Build configuration list for PBXProject "NSNumberFormatterHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3AEBB691E7CEAFB00BE6E30 /* Debug */,
+				B3AEBB6A1E7CEAFB00BE6E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3AEBB6B1E7CEAFB00BE6E30 /* Build configuration list for PBXNativeTarget "NSNumberFormatterHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3AEBB6C1E7CEAFB00BE6E30 /* Debug */,
+				B3AEBB6D1E7CEAFB00BE6E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3AEBB6E1E7CEAFB00BE6E30 /* Build configuration list for PBXNativeTarget "NSNumberFormatterHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3AEBB6F1E7CEAFB00BE6E30 /* Debug */,
+				B3AEBB701E7CEAFB00BE6E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3AEBB411E7CEAFA00BE6E30 /* Project object */;
+}
